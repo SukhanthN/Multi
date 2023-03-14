@@ -2,7 +2,7 @@
       agent any 
     
       stages {
-          stage {
+          stage ("print hello") {
               steps {
                   echo "Hello world"
                }
